@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit 2 Assessment: HTML/CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body> 
+    <form>
+    <label for="character-name">Character Name:</label>
+    <input type="text" id="character-name" name="character-name">
+
+    <div>
+      <input type="radio" id="jedi" name="affiliation" value="Jedi">
+      <label for="jedi">Jedi</label>
+      <input type="radio" id="sith" name="affiliation" value="Sith">
+      <label for="sith">Sith</label>
+    </div>
+
+    <label for="color">Lightsaber Color:</label>
+    <select id="color" name="color">
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="red">Red</option>
+      <option value="purple">Purple</option>
+    </select>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Lightsaber Color</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Luke Skywalker</td>
+        <td>Jedi</td>
+        <td>Green</td>
+      </tr>
+      <tr>
+        <td>Darth Vader</td>
+        <td>Sith</td>
+        <td>Red</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
